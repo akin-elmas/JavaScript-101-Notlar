@@ -49,12 +49,12 @@
         Referans veri tiplerinin her biri typeof ile kontrol edildiğinde object olarak karşımıza çıkacaktır.
 
         #### Array : Değişken ismi deklare edildikten sonra köşeli parantez kullanılır.
-        ```
+        
         var numbers = [1,2,3,4,5];
-        ```
+        
         #### Object (Obje) : Değişken ismi deklare edildikten sonra tırnaklı parantez kullanılır. Key(anahtar) ve value(değer) şeklinde kullanılır. ":" iki nokta işaretinin sol kısmı key sağ kısmı ise value'dur. String(Sicim, yazı karakteri) türünde kullanılan value'lar çift tırnak içinde tanımlanmak zorundadır. Bir obje içinde birden fazla key value tanımlamak için virgül (,) kullanmak gerekmektedir.
         
-        ```
+        
         var person = {
             name:"Akın",
             age: 23
