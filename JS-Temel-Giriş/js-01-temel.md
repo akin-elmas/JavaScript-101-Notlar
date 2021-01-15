@@ -52,7 +52,8 @@
         ```
         var numbers = [1,2,3,4,5];
         ```
-        ####Object (Obje) : Değişken ismi deklare edildikten sonra tırnaklı parantez kullanılır. Key(anahtar) ve value(değer) şeklinde kullanılır. ":" iki nokta işaretinin sol kısmı key sağ kısmı ise value'dur. String(Sicim, yazı karakteri) türünde kullanılan value'lar çift tırnak içinde tanımlanmak zorundadır. Bir obje içinde birden fazla key value tanımlamak için virgül (,) kullanmak gerekmektedir.
+        #### Object (Obje) : Değişken ismi deklare edildikten sonra tırnaklı parantez kullanılır. Key(anahtar) ve value(değer) şeklinde kullanılır. ":" iki nokta işaretinin sol kısmı key sağ kısmı ise value'dur. String(Sicim, yazı karakteri) türünde kullanılan value'lar çift tırnak içinde tanımlanmak zorundadır. Bir obje içinde birden fazla key value tanımlamak için virgül (,) kullanmak gerekmektedir.
+        
         ```
         var person = {
             name:"Akın",
@@ -60,7 +61,7 @@
         }
         ```
         #### Function(Fonksiyon) : Fonksiyonlarda referans veri tipleridir. Bir değişkena atanarak veya isimli olarak kullanılabilir. Örnekler ES5(ECMAScript 5) üzerinden verilmiştir. Fonksiyonlarda parantez içerisine argüman veya parametre şeklinde adlandırılan değerler girilebilir.
-    ```
+        ```
         var hello = function(){
             console.log("Merhaba"); 
         }
@@ -68,7 +69,7 @@
         function hello() {
             console.log("Merhaba");
         }
-     ```
+         ```
         Referans veri tipleri referanslar üzerinden bellekteki yeri göstermektedir. Primitif veri tipleri ise değişkenin direkt değeridir.
         Referans veri tipleri bellekte iki adet yer oluşturmaktadır, değişkenin ismi ve değişkenin değeri. Primitif değerlerde durum böyle değildir. 
         Bir süre sonra bu kavramlar karmaşa yaratacaktır. Bunun için "type coercion"(tür zorlaması) konusuna bakmanız gerekmektedir.
