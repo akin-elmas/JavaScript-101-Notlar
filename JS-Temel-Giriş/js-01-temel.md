@@ -1,6 +1,6 @@
 # JS 101 Temel - 01
     
-    ** Yorum Satırları
+    Yorum Satırları
 
     // tek satır yorum satırları çift slaş ile oluşturulur.
     /*
@@ -8,7 +8,7 @@
     */
 
 
-    ** Değişken oluşturma 
+    Değişken oluşturma 
     
     JavaScript'te veri tipi belirtmemize gerek yoktur otomatik veri tipi(number,string vs.) belirlenmektedir.
     
