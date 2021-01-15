@@ -13,13 +13,14 @@
     JavaScript'te veri tipi belirtmemize gerek yoktur otomatik veri tipi(number,string vs.) belirlenmektedir.
     
     "var" anahtar kelimesi ile değişken oluşturulup direkt değer atanabilir veya tanımlandıktan sonra değer atanabilir.
-    ```
-    var a = 20; // "a" adlı değişkene deklare edildiği satırda değer atanmıştır.
-   
+  
+    var a = 20; 
+    // "a" adlı değişkene deklare edildiği satırda değer atanmıştır.
+    
     var a; // declaration(beyan etmek, bildirmek) "a" adlı değişkenin varlığı bildirilmiştir.
     a=20; // assignment(atamak, belirlemek, tayin etmek) soldaki değer sağ tarafa atanmıştır.
 
-    ```
+    
     ## Data Type(Veri tipleri) : Primitif ve Referans veri tipleri olarak ikiye ayrılmaktadır.
 
         ### Primitive(Primitif,İlkel): Number, String, Booelan, Null, Undefined 
