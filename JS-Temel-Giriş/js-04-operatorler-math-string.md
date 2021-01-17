@@ -1,6 +1,6 @@
 # JS 101 Temel - 04
     
-    ##Aritmetik Operatörler
+   ## Aritmetik Operatörler
         * Toplama  : + 
         * Çıkarma  : - 
         * Çarpma   : *
@@ -10,7 +10,7 @@
         * Arttırma : ++
         * Eksiltme : --
 
-    ##Math Objesi
+   ## Math Objesi
 
     value = Math.PI; // pi sayısını dönmektedir.
     value = Math.round(3.5); // Noktanın solundaki değeri aşağı veya yukarı yuvarlar.
@@ -31,7 +31,7 @@
 
     value = Math.random(); // Rastgele değerler üretir.
 
-    ##String
+   ## String
 
     let name = "Akın";
     let surName= "Elmas";
@@ -40,7 +40,7 @@
 
     fullName.length; // String uzunluğunu ölçebiliriz.
 
-    Concat Metodu:
+   ### Concat Metodu:
     fullName = name.concat(" ",surName); // Akın Elmas şeklinde birleştirme işlemi gerçekleştirdik.
 
     value = fullName.toLowerCase(); // bütün karakterleri küçük harfe çevirir.
@@ -51,19 +51,19 @@
 
     value = firstname.indexOf("a"); // içine verilen karakterin indis numarasını verir.
 
-    Split Metodu
+   ### Split Metodu:
 
     let langs = "js,py,c";
 
     value = langs.split(","); // her bir elemanı alır, array içine yerleştirir.
 
-    Replacen
+   ### Replace Metodu:
     
     String içinden bir ögenin yerine başka bir ögeyi yerleştirmek içine kullanılır.
 
     value = langs.replace("js","swift"); // ilk ögenin yerine ikinciyi yerleştirdi.
 
-    Includes 
+   ### Includes Metodu: 
 
     value = langs.includes("js"); // parametre var ise true döner yoksa false.
 
