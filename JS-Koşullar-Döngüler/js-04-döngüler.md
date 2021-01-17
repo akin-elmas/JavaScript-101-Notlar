@@ -1,10 +1,10 @@
 # JS 102 Temel - 04
 
-     ## Döngüler
+  ## Döngüler
 
      Belli koşullarda çalışan yapılardır.
 
-      #### While
+   #### While
 
       // değer 10 dan küçük olduğu sürece block çalışacaktır.
 
@@ -16,7 +16,7 @@
       }
 
 
-     #### Break - Continue
+  #### Break - Continue
     
      Break döngü kırar.
      Continue döngüyü başa döndürür bir sonraki değerler başlatır. While da koşula döner, for döngüsünde arttırma işlemine döner.
@@ -42,7 +42,7 @@
         console.log(langs[index]); 
     }
 
-    #### forEach
+  #### forEach
 
     let langs = ["py","js","css"];
 
@@ -53,7 +53,7 @@
     })
 
 
-    #### Map
+  #### Map
     Map ile array içerisindeki objelerin key ve valuelarını tek tek alıp bir array oluşturabiliriz. Map'te içine bir fonksiyon ve anlamlı her hangi bir parametre alır.
     let users= [
         {name:"Akın", age:23},
@@ -65,7 +65,8 @@
         return user.name;
     });
 
-    #### for in
+  #### for in
+  
     Her bir key üzerinde gezinebiliriz değerlerini alabiliriz.
     let user = {
         name :"AKIN",
