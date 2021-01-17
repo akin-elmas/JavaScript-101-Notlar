@@ -35,6 +35,7 @@
     Block scope içinde tanımlanan var değişkeni dışarıda çağırıldığında kullanılabilir lakin let ve const ile tanımlanan değişkenler dışarıda var olmaz. var keywordü globaldede tanımlıysa değerleri değişir ve problem yaratabilir.
 
     let ve const ile tanımlanan değişkenler block scopeta var olurlar globaldede tanımlıysa birbirleri ile karışmazlar.
+    
     ```
     if(true){
         var c = 10;
