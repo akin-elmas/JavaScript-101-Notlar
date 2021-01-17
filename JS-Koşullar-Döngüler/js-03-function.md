@@ -1,6 +1,7 @@
 # JS 102 Temel - 03
 
-    ## Fonksiyonlar 
+   ## Fonksiyonlar 
+
 
     // fonksiyon tanımlama.
     function hi(){ 
@@ -28,7 +29,7 @@
     square(12);
 
 
-    ### Function Expression
+   ### Function Expression
     Bir değişkene fonksiyonu eşitleyeceğiz.
 
     let merhaba = function(){
@@ -36,10 +37,12 @@
     };
     merhaba(); // değişken ismi ile fonksiyonu çağırabiliriz.
 
-    ### IIFE (Immediately Invoked Function Expression)
+   ### IIFE (Immediately Invoked Function Expression)
 
     Tanımlandığı yerde çalışan fonksiyon. IIFE içindeki değişkenler dışarıda görülmez. IIFE İçinde tanımlanan değişken dışarıda aynı adda tanımlıysa problem yaratmaz.
 
+```
     (function(name){
         console.log("selam: "+ name);
-    })("Akın"); //
+    })("Akın"); 
+ ```
