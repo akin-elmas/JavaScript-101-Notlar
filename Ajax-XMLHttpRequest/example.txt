@@ -1,0 +1,1 @@
+Bu veri ajax ile çekilecektir.
