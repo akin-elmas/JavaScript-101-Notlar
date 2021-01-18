@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Akın Elmas",
+        "department":"Front-End",
+        "salary": 8000
+    },
+    {
+        "name":"İbrahim Elmas",
+        "department":"Back-End",
+        "salary": 18000
+    }
+    
+]
